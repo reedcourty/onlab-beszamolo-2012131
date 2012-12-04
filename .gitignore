@@ -7,5 +7,8 @@
 *.snm
 *.toc
 
+# A magyar.ldf fájl nem kell:
+magyar.ldf
+
 # A commit.log nem kell:
 commit.log
