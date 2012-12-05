@@ -257,6 +257,35 @@
 
 %###############################################################################
 %#
+%#                    LEMEZ KÉSLELTETÉSEK ÖSSZEFÜGGÉSEI
+%#
+\renewcommand{\slidecim}{Lemezkésleltetések összefüggései}
+\section{\slidecim}
+\setfootline{\todo{Keep floyding}}
+\begin{frame}[t]
+\frametitle{\slidecim}
+\begin{itemize}
+    \item Mért metrikák:
+        \begin{itemize}
+            \item disk.deviceLatency.average, disk.kernelLatency.average, disk.totallatency.average
+        \end{itemize}
+    \item Kapcsolatuk:
+        \begin{itemize}
+            \item $totallatency = deviceLatency + kernelLatency$
+        \end{itemize}
+\end{itemize}
+\todo{Képet újragenerálni kisebb intervallumra!}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=110mm, keepaspectratio]{figures/disk_metrics_sumlatency.png}
+\end{figure}
+\end{frame}
+%#
+%###############################################################################
+
+
+%###############################################################################
+%#
 %#                    ÖSSZEFOGLALÁS - ELÉRT EREDMÉNYEK
 %#
 \renewcommand{\slidecim}{Összefoglalás - Elért eredmények}
