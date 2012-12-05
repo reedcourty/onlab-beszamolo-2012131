@@ -291,7 +291,20 @@
 \setfootline{\todo{Keep floyding}}
 \begin{frame}[t]
 \frametitle{\slidecim}
-\todo{•}
+\begin{itemize}
+\item Az adathalmazunk:
+    \begin{itemize}
+        \item Egy PowerShell alapú szkript CSV-be exportálta a hostonként/guestenként mért metrikákat
+        \item Kb. 1 hónapos mérési időszak
+        \item 2 host, 6-4 guest OS (Windows, Linux vegyesen)
+        \item 144 metrika, kb. 89 millió mérési pont, kb. 290 MB adat
+    \end{itemize}
+\item Előállított grafikonok:
+    \begin{itemize}
+        \item az összes metrika a mérési időintervallumon
+        \item néhány kiválasztott metrikák közötti összefüggések
+    \end{itemize}
+\end{itemize}
 \end{frame}
 %#
 %###############################################################################
